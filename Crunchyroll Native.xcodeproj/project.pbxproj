@@ -13,6 +13,10 @@
 		A6543B71285D164200EA4F97 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6543B70285D164200EA4F97 /* ContentView.swift */; };
 		A6543B73285D164300EA4F97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6543B72285D164300EA4F97 /* Assets.xcassets */; };
 		A6543B77285D164300EA4F97 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6543B76285D164300EA4F97 /* Preview Assets.xcassets */; };
+		A6543B7E285D1ED000EA4F97 /* Crunchyroll_NativeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6543B7D285D1ED000EA4F97 /* Crunchyroll_NativeView.swift */; };
+		A6543B80285D20E100EA4F97 /* WatchNowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6543B7F285D20E100EA4F97 /* WatchNowView.swift */; };
+		A6543B82285D21A000EA4F97 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6543B81285D21A000EA4F97 /* BrowseView.swift */; };
+		A6543B84285D383200EA4F97 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6543B83285D383200EA4F97 /* SearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		A6543B72285D164300EA4F97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6543B74285D164300EA4F97 /* Crunchyroll_Native.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Crunchyroll_Native.entitlements; sourceTree = "<group>"; };
 		A6543B76285D164300EA4F97 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A6543B7D285D1ED000EA4F97 /* Crunchyroll_NativeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crunchyroll_NativeView.swift; sourceTree = "<group>"; };
+		A6543B7F285D20E100EA4F97 /* WatchNowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchNowView.swift; sourceTree = "<group>"; };
+		A6543B81285D21A000EA4F97 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
+		A6543B83285D383200EA4F97 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				A6543B69285D164200EA4F97 /* Crunchyroll_NativeApp.swift */,
 				A6543B6B285D164200EA4F97 /* Persistence.swift */,
 				A6543B70285D164200EA4F97 /* ContentView.swift */,
+				A6543B7D285D1ED000EA4F97 /* Crunchyroll_NativeView.swift */,
+				A6543B7F285D20E100EA4F97 /* WatchNowView.swift */,
+				A6543B81285D21A000EA4F97 /* BrowseView.swift */,
+				A6543B83285D383200EA4F97 /* SearchView.swift */,
 				A6543B72285D164300EA4F97 /* Assets.xcassets */,
 				A6543B74285D164300EA4F97 /* Crunchyroll_Native.entitlements */,
 				A6543B6D285D164200EA4F97 /* Crunchyroll_Native.xcdatamodeld */,
@@ -146,7 +158,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6543B6F285D164200EA4F97 /* Crunchyroll_Native.xcdatamodeld in Sources */,
+				A6543B7E285D1ED000EA4F97 /* Crunchyroll_NativeView.swift in Sources */,
+				A6543B82285D21A000EA4F97 /* BrowseView.swift in Sources */,
 				A6543B6A285D164200EA4F97 /* Crunchyroll_NativeApp.swift in Sources */,
+				A6543B84285D383200EA4F97 /* SearchView.swift in Sources */,
+				A6543B80285D20E100EA4F97 /* WatchNowView.swift in Sources */,
 				A6543B71285D164200EA4F97 /* ContentView.swift in Sources */,
 				A6543B6C285D164200EA4F97 /* Persistence.swift in Sources */,
 			);
