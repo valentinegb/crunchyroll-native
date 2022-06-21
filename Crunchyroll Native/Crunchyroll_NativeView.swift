@@ -9,10 +9,10 @@ import SwiftUI
 
 struct Crunchyroll_NativeView: View {
     @State private var searchText = ""
+    @State private var submittedSearchText = ""
     
     #if os(macOS)
     @State private var activeTab: Tab = .watchNow
-    @State private var submittedSearchText = ""
 
     private enum Tab: String, CaseIterable, Identifiable {
         case watchNow, browse, search
@@ -64,9 +64,12 @@ struct Crunchyroll_NativeView: View {
                 Label("Browse", systemImage: "square.grid.2x2.fill")
             }
             NavigationStack {
-                SearchView()
+                SearchView(submittedSearchText)
                     .navigationTitle("Search")
                     .searchable(text: $searchText)
+                    .onSubmit(of: .search, {
+                        submittedSearchText = searchText
+                    })
             }
             .tabItem {
                 Label("Search", systemImage: "magnifyingglass")
